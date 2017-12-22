@@ -51,7 +51,7 @@
 	</div>
 
 				
-	<div class="form">
+	<form id="form">
 		<div class="heading">Submit safety and security report</div>
 			<label for="name">
 				<span>Name
@@ -108,8 +108,8 @@
 			</label>
 			<label>
 				<span>&nbsp;</span>
-				<input type="submit" id="write" value="Submit" />
-				 <input type="reset" value="Reset">
+				<input type="submit" id="write" onclick="myFunction()" value="Submit" />
+				 
 			</label>
 			<label for="option">
 				<span>Place</span>
@@ -129,7 +129,7 @@
 		    </label>
 			<label>
 			    <span>&nbsp;</span>
-				 <input type="submit" id="read" value="Generate" />			 
+				 <input type="submit" id="read" onclick="myFunction()" value="Generate" />			 
 			</label>
 		  <!--  <label for="problem">
 		    	<span>ISSUES FACED BY OTHER TOURISTS 
@@ -138,7 +138,13 @@
 				<textarea name="problem" class="text" id="problem"></textarea>
 			</label>-->
 				<p>&copy;team Rookie</p>
-	</div>
+	</form>
+	<script>
+function myFunction() {
+    document.getElementById("form").reset();
+}
+</script>
+
 
 	<script src="js/jscript.js"></script>  
 

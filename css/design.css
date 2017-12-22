@@ -17,7 +17,7 @@ footer {
 }
 
 
-				.form{
+				#form{
 					margin-left: 500px;
 				    max-width: 500px;
 				    padding: 20px 12px 10px 20px;
@@ -31,28 +31,28 @@ footer {
 				    font-size: 15px;
 				    padding-bottom: 3px;
 				}
-				.form label{
+				#form label{
 				    display: block;
 				    margin: 0px 0px 15px 0px;
 				}
-				.form label > span{
+				#form label > span{
 				    width: 100px;
 				    font-weight: bold;
 				    float: left;
 				    padding-top: 8px;
 				    padding-right: 5px;
 				}
-				.form span.name{
+				#form span.name{
 				    color:red;
 				}
-				.form input.input{
+				#form input.input{
 				    width: 48%;
 				    
 				}
 
-				.form input .input,   
-				.form .text, 
-				 .form .place{
+				#form input .input,   
+				#form .text, 
+				 #form .place{
 				    box-sizing: border-box;
 				    -webkit-box-sizing: border-box;
 				    -moz-box-sizing: border-box;
@@ -66,17 +66,17 @@ footer {
 				    padding: 7px;
 				    outline: none;
 				}
-				.form .input:focus, 
-				.form .text:focus,  
-				.form .option:focus{
+				#form .input:focus, 
+				#form .text:focus,  
+				#form .option:focus{
 				    border: 1px solid #0C0;
 				}
-				.form .text{
+				#form .text{
 				    height:100px;
 				    width: 55%;
 				}
-				.form input[type=submit],
-				.form input[type=button]{
+				#form input[type=submit],
+				#form input[type=button]{
 				    border: none;
 				    padding: 8px 15px 8px 15px;
 				    background: #FF8500;
@@ -88,8 +88,8 @@ footer {
 				    -webkit-border-radius: 3px;
 				    -moz-border-radius: 3px;
 				}
-				.form input[type=submit]:hover,
-				.form input[type=button]:hover{
+				#form input[type=submit]:hover,
+				#form input[type=button]:hover{
 				    background: #EA7B00;
 				    color: #fff;
 				}
